@@ -2,6 +2,9 @@
 
 This Dart script streamlines the process of generating Flutter `controller` and `binding` files directly from your terminal. It automatically creates the necessary folders and Dart files with boilerplate code tailored for a GetX-based architecture.
 
+# New update V2
+Now your can create one command make all files. you can try `dart tool/make_v2.dart all:home`
+
 ## 📁 Directory Structure
 
 The script generates files within your `lib/` folder:
@@ -49,6 +52,18 @@ This creates:
 
 ```
 lib/binding/home_binding.dart
+```
+
+### 3. Customize the Script
+You can modify the script to generate other files as needed.
+
+### 4. Make_V2 Script 
+You can modify the script to generate other files as needed.
+
+# Usage
+
+```bash
+dart tool/make_v2.dart all:name 
 ```
 
 ## 💡 How It Works
